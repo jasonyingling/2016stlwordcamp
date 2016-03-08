@@ -924,6 +924,9 @@ footer.entry-meta {
   border-bottom: 1px solid #84bd00;
   margin: 0 0 0.875rem;
   line-height: 1.75; }
+  .widget-title a {
+    text-decoration: none;
+    color: #ffffff; }
 
 /*--------------------------------------------------------------
 # Infinite scroll
