@@ -230,15 +230,19 @@ input,
 select,
 textarea {
   color: #545760;
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 700;
   clear: both; }
 
 p {
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 400;
   margin-bottom: 1.5em; }
 
 dfn, cite, em, i {
@@ -840,6 +844,7 @@ a {
     text-decoration: none; }
 
 .entry-content .more-link {
+  font-family: 'Roboto Slab', 'Lato', Arial, sans-serif;
   background-color: #1f2a44;
   clear: both;
   display: block;
@@ -859,6 +864,7 @@ a {
   clip: rect(1px 1px 1px 1px);
   position: absolute; }
 .entry-content input[type="submit"] {
+  font-family: 'Roboto Slab', 'Latos', Arial, sans-serif;
   background-color: #1f2a44;
   clear: both;
   display: block;
