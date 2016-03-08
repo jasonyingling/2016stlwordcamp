@@ -730,7 +730,7 @@ a {
     max-width: 385px;
     height: 52px;
     margin: 0 auto;
-    background: url("//2016.stlouis.wordcamp.org/files/2016/03/banner-art.png") no-repeat top center;
+    background: url("//2016.stlouis.wordcamp.org/files/2016/03/banner-art.png") no-repeat center center;
     background-size: 100% auto;
     text-indent: 100%;
     white-space: nowrap;
