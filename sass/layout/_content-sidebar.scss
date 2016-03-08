@@ -1,0 +1,32 @@
+#main {
+    max-width: 68rem;
+    margin: 0 auto;
+	padding: 3rem 0;
+}
+
+.site-content {
+	float: left;
+	width: 100%;
+	padding: 0 1rem;
+}
+
+.widget-area {
+	float: right;
+	width: 100%;
+	padding: 0 15px;
+}
+
+.site-footer {
+	clear: both;
+	width: $size__site-main;
+}
+
+@media screen and (min-width: 615px) {
+	.site-content {
+		width: 70%;
+	}
+
+	.widget-area {
+		width: 30%;
+	}
+}

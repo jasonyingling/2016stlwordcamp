@@ -1,0 +1,13 @@
+.widget {
+	ul {
+		margin-left: 0;
+	}
+}
+
+.widget-title {
+	font-size: 1.125em;
+	text-transform: uppercase;
+	border-bottom: 1px solid $color__accent;
+	margin: 0.875rem 0;
+	line-height: 1.75;
+}
