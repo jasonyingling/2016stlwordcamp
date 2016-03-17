@@ -975,6 +975,9 @@ input[type="submit"] {
 /*--------------------------------------------------------------
 ## Tickets
 --------------------------------------------------------------*/
+body.admin-bar .entry-content #tix {
+  padding-top: 0; }
+
 .tix_tickets_table thead {
   text-align: left; }
 .tix_tickets_table tbody tr:nth-child(2n+1) {
