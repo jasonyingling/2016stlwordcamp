@@ -871,6 +871,7 @@ a {
 
 .entry-content .more-link {
   font-family: 'Roboto Slab', 'Lato', Arial, sans-serif;
+  font-size: 16px;
   background-color: #1f2a44;
   clear: both;
   display: block;
@@ -904,7 +905,11 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  box-shadow: none; }
+  box-shadow: none;
+  font-size: 16px;
+  padding-bottom: 15px;
+  font-weight: normal;
+  text-shadow: none; }
   .entry-content input[type="submit"]:hover {
     background-color: #84bd00; }
 
@@ -953,6 +958,24 @@ footer.entry-meta {
   .widget-title a {
     text-decoration: none;
     color: #ffffff; }
+
+/*--------------------------------------------------------------
+## Tickets
+--------------------------------------------------------------*/
+.tix_tickets_table thead {
+  text-align: left; }
+.tix_tickets_table tbody tr:nth-child(2n+1) {
+  background-color: #f7f7f7; }
+.tix_tickets_table .tix-column-description {
+  width: 275px; }
+.tix_tickets_table .tix-column-price,
+.tix_tickets_table .tix-column-remaining,
+.tix_tickets_table .tix-column-quantity {
+  vertical-align: top !important; }
+
+#tix table, #tix th, #tix td {
+  padding: 5px 10px;
+  border: 1px solid #dbdbdb; }
 
 /*--------------------------------------------------------------
 # Infinite scroll

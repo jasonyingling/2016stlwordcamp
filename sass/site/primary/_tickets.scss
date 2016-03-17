@@ -1,0 +1,30 @@
+.tix_tickets_table {
+	thead {
+		text-align: left;
+	}
+
+	tbody {
+		tr {
+			&:nth-child(2n+1) {
+				background-color: #f7f7f7;
+			}
+		}
+	}
+
+	.tix-column-description {
+		width: 275px;
+	}
+
+	.tix-column-price,
+	.tix-column-remaining,
+	.tix-column-quantity {
+		vertical-align: top !important;
+	}
+}
+
+#tix {
+	table, th, td {
+		padding: 5px 10px;
+		border: 1px solid $color__tertiary;
+	}
+}
