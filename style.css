@@ -802,14 +802,11 @@ a {
     .site-info a:hover {
       color: #1f2a44; }
   .site-info .site-info-network {
-    position: absolute;
-    top: 18px;
-    left: 20px; }
+    border-left: 1px solid #ffffff;
+    padding-left: 10px;
+    margin-left: 10px; }
     .site-info .site-info-network:hover {
       color: #84bd00; }
-
-.logged-in .site-info .site-info-network {
-  top: 50px; }
 
 @media screen and (min-width: 615px) {
   #footer-widgets {

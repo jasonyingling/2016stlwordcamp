@@ -24,20 +24,12 @@
 	}
 
 	.site-info-network {
-		position: absolute;
-		top: 18px;
-		left: 20px;
+		border-left: 1px solid #ffffff;
+		padding-left: 10px;
+		margin-left: 10px;
 
 		&:hover {
 			color: $color__accent;
-		}
-	}
-}
-
-.logged-in {
-	.site-info {
-		.site-info-network {
-			top:  50px;
 		}
 	}
 }
