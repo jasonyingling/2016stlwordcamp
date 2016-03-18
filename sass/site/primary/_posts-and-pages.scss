@@ -123,5 +123,7 @@ input[type="submit"] {
 
 	&:hover {
 		background-color: $color__accent;
+		box-shadow: none;
+		border-color:$color__accent;
 	}
 }

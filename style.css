@@ -926,7 +926,9 @@ input[type="submit"] {
   font-weight: normal;
   text-shadow: none; }
   input[type="submit"]:hover {
-    background-color: #84bd00; }
+    background-color: #84bd00;
+    box-shadow: none;
+    border-color: #84bd00; }
 
 /*--------------------------------------------------------------
 ## Asides
