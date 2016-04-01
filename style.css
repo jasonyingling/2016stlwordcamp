@@ -866,7 +866,7 @@ a {
     color: #1f2a44;
     text-decoration: none; }
 
-.wc-cta {
+a.wc-cta {
   font-family: 'Roboto Slab', 'Lato', Arial, sans-serif;
   font-size: 16px;
   background-color: #1f2a44;
@@ -882,8 +882,9 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center; }
-  .wc-cta:hover {
-    background-color: #84bd00; }
+  a.wc-cta:hover {
+    background-color: #84bd00;
+    color: #ffffff; }
 
 .entry-content .more-link {
   font-family: 'Roboto Slab', 'Lato', Arial, sans-serif;

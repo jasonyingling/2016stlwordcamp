@@ -49,7 +49,7 @@
 	}
 }
 
-.wc-cta {
+a.wc-cta {
 	font-family: 'Roboto Slab', 'Lato', Arial, sans-serif;
 	font-size: 16px;
 	background-color: $color__primary;
@@ -68,6 +68,7 @@
 
 	&:hover {
 		background-color: $color__accent;
+		color: #ffffff;
 	}
 }
 
