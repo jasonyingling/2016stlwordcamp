@@ -866,6 +866,25 @@ a {
     color: #1f2a44;
     text-decoration: none; }
 
+.wc-cta {
+  font-family: 'Roboto Slab', 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  background-color: #1f2a44;
+  clear: both;
+  display: block;
+  width: 210px;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  padding: 1em 1.5em 0.75em;
+  border-bottom: 5px solid #84bd00;
+  border-radius: 3px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center; }
+  .wc-cta:hover {
+    background-color: #84bd00; }
+
 .entry-content .more-link {
   font-family: 'Roboto Slab', 'Lato', Arial, sans-serif;
   font-size: 16px;
