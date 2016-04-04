@@ -886,6 +886,9 @@ a.wc-cta {
     background-color: #84bd00;
     color: #ffffff; }
 
+a.wc-cta.wc-ticket-button {
+  width: 100%; }
+
 .entry-content .more-link {
   font-family: 'Roboto Slab', 'Lato', Arial, sans-serif;
   font-size: 16px;
