@@ -1022,6 +1022,12 @@ body.admin-bar .entry-content #tix {
   text-align: left; }
 .wcpt-schedule tbody tr:nth-child(2n+1) {
   background-color: #f7f7f7; }
+.wcpt-schedule tbody td {
+  max-width: 160px; }
+
+.wcpt-schedule, .wcpt-schedule th, .wcpt-schedule td {
+  padding: 5px 10px;
+  border: 1px solid #dbdbdb; }
 
 /*--------------------------------------------------------------
 # Infinite scroll

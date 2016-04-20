@@ -9,5 +9,13 @@
 				background-color: #f7f7f7;
 			}
 		}
+		td {
+			max-width: 160px;
+		}
 	}
+}
+
+.wcpt-schedule, .wcpt-schedule th, .wcpt-schedule td {
+	padding: 5px 10px;
+	border: 1px solid $color__tertiary;
 }
