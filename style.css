@@ -1016,6 +1016,14 @@ body.admin-bar .entry-content #tix {
   border: 1px solid #dbdbdb; }
 
 /*--------------------------------------------------------------
+## Schedule
+--------------------------------------------------------------*/
+.wcpt-schedule thead {
+  text-align: left; }
+.wcpt-schedule tbody tr:nth-child(2n+1) {
+  background-color: #f7f7f7; }
+
+/*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */

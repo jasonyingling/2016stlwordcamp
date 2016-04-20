@@ -1,0 +1,13 @@
+.wcpt-schedule {
+	thead {
+		text-align: left;
+	}
+
+	tbody {
+		tr {
+			&:nth-child(2n+1) {
+				background-color: #f7f7f7;
+			}
+		}
+	}
+}
