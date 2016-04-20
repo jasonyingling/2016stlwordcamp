@@ -155,9 +155,9 @@ input[type="submit"] {
 	}
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 800px) {
 	.type-post,
 	.type-page {
-		padding: 2rem 2.5rem;
+		padding: 2rem 2.5rem; 
 	}
 }

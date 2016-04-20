@@ -950,7 +950,7 @@ input[type="submit"] {
     box-shadow: none;
     border-color: #84bd00; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .type-post,
   .type-page {
     padding: 2rem 2.5rem; } }
