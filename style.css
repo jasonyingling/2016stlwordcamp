@@ -857,7 +857,7 @@ a {
 .type-page {
   background: #ffffff;
   border-top: 5px solid #1f2a44;
-  padding: 2rem 2.5rem;
+  padding: 1.5rem 1.5rem;
   margin-bottom: 2rem; }
 
 .entry-title {
@@ -950,6 +950,10 @@ input[type="submit"] {
     box-shadow: none;
     border-color: #84bd00; }
 
+@media screen and (min-width: 768px) {
+  .type-post,
+  .type-page {
+    padding: 2rem 2.5rem; } }
 /*--------------------------------------------------------------
 ## Asides
 --------------------------------------------------------------*/
