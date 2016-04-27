@@ -1,0 +1,33 @@
+.wcpt-schedule .wcpt-session-speakers a {
+	color: #888;
+	font-size: .85em;
+	display: block;
+}
+
+.wcorg-speakers {
+
+	.avatar {
+		float: right;
+		margin-left: 1em;
+		margin-bottom: .75em;
+	}
+
+	.wcorg-speaker {
+		margin-bottom: 2em;
+		clear: both;
+	}
+
+	.wcorg-speaker::after {
+		content: "";
+		height: 1px;
+		display: table;
+		clear: both;
+	}
+
+	h2 {
+		margin-top: 0;
+		margin-bottom: .5em;
+		font-size: 1.5em;
+	}
+
+}
