@@ -1062,6 +1062,23 @@ body.admin-bar .entry-content #tix {
   font-size: 1.5em; }
 
 /*--------------------------------------------------------------
+## Attendees
+--------------------------------------------------------------*/
+#tix-attendees ul {
+  margin: 0;
+  padding: 0; }
+#tix-attendees .tix-columns-3 li {
+  width: 100%; }
+#tix-attendees .tix-attendee-name {
+  margin-left: 60px; }
+
+@media screen and (min-width: 768px) {
+  #tix-attendees .tix-columns-3 li {
+    width: 50%; } }
+@media screen and (min-width: 1120px) {
+  #tix-attendees .tix-columns-3 li {
+    width: 33.333%; } }
+/*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
