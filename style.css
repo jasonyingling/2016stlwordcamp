@@ -1071,8 +1071,10 @@ body.admin-bar .entry-content #tix {
   width: 100%; }
 #tix-attendees .tix-attendee-name {
   margin-left: 60px; }
+#tix-attendees .tix-field {
+  margin-left: 60px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 626px) {
   #tix-attendees .tix-columns-3 li {
     width: 50%; } }
 @media screen and (min-width: 1120px) {

@@ -11,9 +11,12 @@
 	.tix-attendee-name {
 		margin-left: 60px;
 	}
+	.tix-field {
+		margin-left: 60px;
+	}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 626px) {
 	#tix-attendees {
 		.tix-columns-3 {
 			li {
