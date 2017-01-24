@@ -749,7 +749,8 @@ a {
   background-size: auto 113px;
   border-top: 5px solid #0098db; }
   .site-header hgroup {
-    background-color: #ffffff; }
+    background-color: #ffffff;
+    display: none; }
     .site-header hgroup:after {
       content: '';
       display: block;
@@ -766,9 +767,7 @@ a {
       /* IE6-9 */ }
   .site-header .site-title {
     max-width: 385px;
-    height: 52px;
     margin: 0 auto;
-    background: url("//2016.stlouis.wordcamp.org/files/2016/03/banner-art.png") no-repeat center center;
     background-size: 100% auto;
     text-indent: 100%;
     white-space: nowrap;
