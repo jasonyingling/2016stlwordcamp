@@ -466,11 +466,11 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #84bd00; }
+  color: #0098db; }
   a:visited {
-    color: #84bd00; }
+    color: #0098db; }
   a:hover, a:focus, a:active {
-    color: #608a00; }
+    color: #0075a8; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -483,25 +483,27 @@ a {
   margin-left: 0;
   padding-left: 0;
   list-style-type: none; }
+
 .main-small-navigation .menu {
   display: none;
-  background-color: #84bd00; }
+  background-color: #0098db; }
   .main-small-navigation .menu li {
-    border-top: 1px solid #608a00;
+    border-top: 1px solid #0075a8;
     text-align: center; }
   .main-small-navigation .menu a {
     padding: 1rem 0;
     color: #ffffff;
     display: block;
     text-decoration: none; }
+
 .main-small-navigation .sub-menu {
   background-color: #dbdbdb; }
   .main-small-navigation .sub-menu a {
-    color: #608a00;
+    color: #0075a8;
     padding: 0.75rem 0; }
 
 .main-navigation {
-  background: #84bd00;
+  background: #0098db;
   clear: both;
   display: block;
   float: left;
@@ -533,12 +535,13 @@ a {
       top: 4.5em;
       left: -999em;
       z-index: 99999;
-      background: #93c421;
+      background: #0098db;
       text-align: left; }
       .main-navigation ul ul ul {
         left: -999em;
         top: 0; }
-      .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+      .main-navigation ul ul li:hover > ul,
+      .main-navigation ul ul li.focus > ul {
         left: 100%; }
       .main-navigation ul ul a {
         width: 250px; }
@@ -548,9 +551,10 @@ a {
   .main-navigation li {
     position: relative;
     display: inline-block; }
-    .main-navigation li:hover > a, .main-navigation li.focus > a {
+    .main-navigation li:hover > a,
+    .main-navigation li.focus > a {
       color: #1f2a44;
-      background: #84bd00; }
+      background: #0098db; }
   .main-navigation .current-menu-item a {
     color: #1f2a44; }
   .main-navigation a {
@@ -568,7 +572,7 @@ a {
 .menu-toggle {
   margin: 0;
   text-align: center;
-  background: #84bd00;
+  background: #0098db;
   color: #ffffff;
   font-size: 1em;
   padding: 1em 0;
@@ -588,19 +592,21 @@ a {
 @media screen and (min-width: 615px) {
   .menu-toggle {
     display: none; }
-
   .main-navigation ul {
     display: block; } }
+
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
   margin: 0 0 1.5em;
   overflow: hidden; }
+
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
   float: left;
   width: 50%; }
+
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
@@ -707,6 +713,7 @@ a {
 
 .page-id-7 .site-content {
   width: 100%; }
+
 .page-id-7 #secondary {
   display: none; }
 
@@ -727,20 +734,20 @@ a {
 @media screen and (min-width: 615px) {
   .site-content {
     width: 70%; }
-
   .widget-area {
     width: 30%; } }
+
 /*--------------------------------------------------------------
 ## Header amd footer
 --------------------------------------------------------------*/
 .site-header {
   background-color: #1f2a44;
-  background-image: url("//2016.stlouis.wordcamp.org/files/2016/03/skyline-fade.jpg");
+  background-image: url("//2017.stlouis.wordcamp.org/files/2017/01/cropped-wcstl-header-1.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   padding-top: 113px;
   background-size: auto 113px;
-  border-top: 5px solid #84bd00; }
+  border-top: 5px solid #0098db; }
   .site-header hgroup {
     background-color: #ffffff; }
     .site-header hgroup:after {
@@ -789,6 +796,7 @@ a {
       height: 129px; }
       .site-header .site-title a {
         height: 397px; } }
+
 .site-footer {
   background: #1f2a44;
   color: #ffffff; }
@@ -798,7 +806,7 @@ a {
     margin: 0 auto; }
 
 .site-info {
-  background: #84bd00;
+  background: #0098db;
   padding: 2rem 0;
   text-align: center; }
   .site-info a {
@@ -811,23 +819,21 @@ a {
     padding-left: 10px;
     margin-left: 10px; }
     .site-info .site-info-network:hover {
-      color: #84bd00; }
+      color: #0098db; }
 
 @media screen and (min-width: 615px) {
   #footer-widgets {
     display: flex; }
-
   .footer-widgets-block {
     padding-right: 10%; }
     .footer-widgets-block:nth-child(3n) {
       padding-right: 0; }
-
   #footer-widget-1 {
     min-width: 340px;
     flex-grow: 1; }
-
   #footer-widget-3 {
     width: 33%; } }
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -881,14 +887,14 @@ a.wc-cta {
   margin-top: 1em;
   margin-bottom: 1.5em;
   padding: 1em 1.5em 0.75em;
-  border-bottom: 5px solid #84bd00;
+  border-bottom: 5px solid #0098db;
   border-radius: 3px;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center; }
   a.wc-cta:hover {
-    background-color: #84bd00;
+    background-color: #0098db;
     color: #ffffff; }
 
 a.wc-cta.wc-ticket-button {
@@ -904,14 +910,15 @@ a.wc-cta.wc-ticket-button {
   margin-top: 1em;
   margin-bottom: 1.5em;
   padding: 1em 1.5em 0.75em;
-  border-bottom: 5px solid #84bd00;
+  border-bottom: 5px solid #0098db;
   border-radius: 3px;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center; }
   .entry-content .more-link:hover {
-    background-color: #84bd00; }
+    background-color: #0098db; }
+
 .entry-content .meta-nav {
   clip: rect(1px 1px 1px 1px);
   position: absolute; }
@@ -928,7 +935,7 @@ footer.entry-meta {
   footer.entry-meta a {
     color: #1f2a44; }
     footer.entry-meta a:hover {
-      color: #84bd00; }
+      color: #0098db; }
 
 input[type="submit"] {
   font-family: 'Roboto Slab', 'Latos', Arial, sans-serif;
@@ -939,7 +946,7 @@ input[type="submit"] {
   margin-bottom: 1.5em;
   padding: 1em 1.5em 0.75em;
   border: 0;
-  border-bottom: 5px solid #84bd00;
+  border-bottom: 5px solid #0098db;
   border-radius: 3px;
   color: #ffffff;
   text-decoration: none;
@@ -951,14 +958,15 @@ input[type="submit"] {
   font-weight: normal;
   text-shadow: none; }
   input[type="submit"]:hover {
-    background-color: #84bd00;
+    background-color: #0098db;
     box-shadow: none;
-    border-color: #84bd00; }
+    border-color: #0098db; }
 
 @media screen and (min-width: 800px) {
   .type-post,
   .type-page {
     padding: 2rem 2.5rem; } }
+
 /*--------------------------------------------------------------
 ## Asides
 --------------------------------------------------------------*/
@@ -984,7 +992,7 @@ input[type="submit"] {
 .widget-title {
   font-size: 1.125em;
   text-transform: uppercase;
-  border-bottom: 1px solid #84bd00;
+  border-bottom: 1px solid #0098db;
   margin: 0 0 0.875rem;
   line-height: 1.75; }
   .widget-title a {
@@ -1011,10 +1019,13 @@ body.admin-bar .entry-content #tix {
 
 .tix_tickets_table thead {
   text-align: left; }
+
 .tix_tickets_table tbody tr:nth-child(2n+1) {
   background-color: #f7f7f7; }
+
 .tix_tickets_table .tix-column-description {
   width: 360px; }
+
 .tix_tickets_table .tix-column-price,
 .tix_tickets_table .tix-column-remaining,
 .tix_tickets_table .tix-column-quantity {
@@ -1029,6 +1040,7 @@ body.admin-bar .entry-content #tix {
 --------------------------------------------------------------*/
 .wcpt-schedule thead {
   text-align: left; }
+
 .wcpt-schedule tbody tr:nth-child(2n+1) {
   background-color: #f7f7f7; }
 
@@ -1048,14 +1060,17 @@ body.admin-bar .entry-content #tix {
   float: right;
   margin-left: 1em;
   margin-bottom: .75em; }
+
 .wcorg-speakers .wcorg-speaker {
   margin-bottom: 2em;
   clear: both; }
+
 .wcorg-speakers .wcorg-speaker::after {
   content: "";
   height: 1px;
   display: table;
   clear: both; }
+
 .wcorg-speakers h2 {
   margin-top: 0;
   margin-bottom: .5em;
@@ -1067,19 +1082,24 @@ body.admin-bar .entry-content #tix {
 #tix-attendees ul {
   margin: 0;
   padding: 0; }
+
 #tix-attendees .tix-columns-3 li {
   width: 100%; }
+
 #tix-attendees .tix-attendee-name {
   margin-left: 60px; }
+
 #tix-attendees .tix-field {
   margin-left: 60px; }
 
 @media screen and (min-width: 626px) {
   #tix-attendees .tix-columns-3 li {
     width: 50%; } }
+
 @media screen and (min-width: 1120px) {
   #tix-attendees .tix-columns-3 li {
     width: 33.333%; } }
+
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
