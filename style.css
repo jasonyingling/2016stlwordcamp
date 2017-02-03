@@ -559,8 +559,8 @@ a {
     display: inline-block; }
     .main-navigation li:hover > a,
     .main-navigation li.focus > a {
-      color: #1f2a44;
-      background: #0098db; }
+      color: #ffffff;
+      background: #1f2a44; }
   .main-navigation .current-menu-item a {
     color: #1f2a44; }
   .main-navigation a {
