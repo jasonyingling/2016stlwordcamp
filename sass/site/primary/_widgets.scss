@@ -1,6 +1,20 @@
 .widget {
-	ul {
+	padding: 10px;
+	background: #ffffff;
+	border-top: 5px solid $color__primary;
+
+	ul, ol {
+		list-style-type: none;
 		margin-left: 0;
+		padding-left: 0;
+
+		ul, ol {
+			padding-left: 1em;
+		}
+
+		a {
+			text-decoration: none;
+		}
 	}
 }
 
@@ -24,7 +38,7 @@
 	h4 {
 		margin: 0.5em 0;
 		color: $color__primary;
-		font-size: 1.25em; 
+		font-size: 1.25em;
 	}
 }
 
