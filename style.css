@@ -512,7 +512,13 @@ a {
     .main-navigation .menu > li:last-child > a:after {
       display: none; }
     .main-navigation .menu > li.current-menu-item:after {
-      content: ''; }
+      content: '';
+      width: 100%;
+      background: #1f2a44;
+      height: 4px;
+      position: absolute;
+      left: 0;
+      bottom: 0; }
     .main-navigation .menu > li.callout-link {
       background-color: #E8DA7C; }
       .main-navigation .menu > li.callout-link:hover {

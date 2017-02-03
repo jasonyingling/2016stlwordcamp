@@ -55,6 +55,12 @@
 			&.current-menu-item {
 				&:after {
 					content: '';
+					width: 100%;
+					background: $color__primary;
+					height: 4px;
+					position: absolute;
+					left: 0;
+					bottom: 0;
 				}
 			}
 
