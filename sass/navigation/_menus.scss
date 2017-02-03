@@ -67,7 +67,8 @@
 			&.callout-link {
 				background-color: $color__callout;
 
-				&:hover {
+				&:hover,
+				&:focus {
 					background-color: darken($color__callout, 10%);
 
 					> a {
