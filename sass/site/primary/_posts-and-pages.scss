@@ -127,7 +127,8 @@ footer.entry-meta {
 	}
 }
 
-input[type="submit"] {
+input[type="submit"],
+.callout-button {
 	font-family: 'Roboto Slab', 'Latos', Arial, sans-serif;
 	background-color: $color__primary;
 	clear: both;
@@ -158,6 +159,6 @@ input[type="submit"] {
 @media screen and (min-width: 800px) {
 	.type-post,
 	.type-page {
-		padding: 2rem 2.5rem; 
+		padding: 2rem 2.5rem;
 	}
 }
