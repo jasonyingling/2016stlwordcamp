@@ -54,10 +54,13 @@
 
 			&.callout-link {
 				background-color: $color__callout;
-				color: $color__primary;
 
 				&:hover {
 					background-color: darken($color__callout, 10%);
+				}
+
+				> a {
+					color: $color__primary;
 				}
 			}
 
